@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#indexpage-header{
+    padding: 1.5%;
+    background-color: black;
+    color: white;
+}
+.left-part{
+    width: 120px;
+}
+
+.home-navbar>ul>li{
+    list-style-type: none;
+    padding: 5px;
+    margin-inline: 8px;
+}
+
+
+.user-profile{
+   width: 80px;
+   height: 40px;
+    background-color: white;
+    border-radius: 28px;
+}
+
+.vertic-line{
+    border-right: 2px solid rgb(205, 201, 201);
+}
+
+.search-container{
+    display: flex;
+    width: 900px;
+    padding: 8px 8px 8px 32px;
+    align-items: center;
+    gap: 32px;
+    height: 64px;
+    color: black;
+    margin-inline:auto;
+    border-radius: 1000px;
+    background: var(--white, #FFF);
+}
+
+.search-container input{
+    border: none;
+    outline: none;
+}
+.search-container input::placeholder{
+    content: 'Add Date';
+}
+#guests{
+    width: 90px;
+}
+
+.hero-page{
+    padding: 2.5%;
+}
+.hero-page>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* -----------listing-page------------ */
+.listpage-search-container{
+    margin-left: 6%;
+    width: 400px;
+    height: 40px;
+    border-radius: 18px;
+    box-shadow: 0  0 4px rgb(183, 183, 183);
+}
+
+
+.listpage-search-container{
+    padding: 6px 16px;
+}
+
+.list-search-icon>img{
+    margin-top: -20px;
+}
+
+.listpage-user-profile{
+    box-shadow: 0  0 3px rgb(183, 183, 183);
+
+}
+
+
+
+.mycard{
+    border-bottom: 2px solid rgb(232, 232, 232);
+    width: 58vw;
+    position: relative;
+
+}
+.card-body-container{
+    width: 100%;
+}
+
+.card-img-container > img{
+    width: 360px;
+    height: 250px;
+    border-radius: 18px;
+
+}
+
+
+.map-container{
+    position:sticky;
+    /* border: 2px  solid red; */
+    width: 38vw;
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+    /* margin-left: 4px; */
+}
+
+.map-container>iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ---------footer---------- */
+.my-footer{
+    padding: 2%;
+}
+
+.footer-r-1{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 1%;
+    flex-wrap: wrap;
+    /* cursor: pointer; */
+}
+.footer-r-1>div>p{
+    cursor: pointer;
+}
+
+.foot-line{
+    width: 100%;
+    border-top: 2px  solid rgb(202, 200, 200);
+}
+
+.footer-r-2{
+    margin-top:1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.footer-c-2{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-c-2>p{
+    margin: 0;
+    padding-right: 5px;
+    cursor: pointer;
+}
