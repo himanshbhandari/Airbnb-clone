@@ -13,7 +13,7 @@ async function fetchData(location,checkIn,checkOut){
         method: 'GET',
         // https://api.example.com/listings?search=${searchInput}
         headers: {
-            'X-RapidAPI-Key': '943d0f203cmshc4a6d757997be34p14e836jsnd1195100861a',
+            'X-RapidAPI-Key': 'fe1388f11emsh65693ad40b3402fp199d31jsn12ca258fd713',
             'X-RapidAPI-Host': 'airbnb13.p.rapidapi.com'
         }
     };
@@ -30,6 +30,9 @@ async function fetchData(location,checkIn,checkOut){
         console.log(error);
     }
 }
+
+
+
 
 fetchData(myLocation,checkInDate,checkOutDate);
 
@@ -58,7 +61,23 @@ function renderingData(data){
         </div>
     `     
     cardContainer.appendChild(card);
+  
     });
 
 
 }
+
+// //map apiikey-- AIzaSyBbtjir20vIaaA-d5dnfhvryqC_ASFurPg
+
+// let map;
+
+// async function initMap() {
+//   const { Map } = await google.maps.importLibrary("maps");
+
+//   map = new Map(document.getElementById("map"), {
+//     center: { lat: -34.397, lng: 150.644 },
+//     zoom: 8,
+//   });
+// }
+
+// initMap();
